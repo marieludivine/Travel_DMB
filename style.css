@@ -241,11 +241,11 @@ h3{
     justify-content: space-between;
     padding-top: 180px; 
     margin-left: 180px;
-    margin-right: 180px;
+    margin-right: 100px;
 }
 
 .text2{
-    width: 70%;
+    width: 55%;
 }
 
 .bold{
@@ -262,4 +262,56 @@ h3{
 
 .div-img-flou .img-flou{
     width: 100%;
+}
+
+.div-img-flou{
+    margin-top: -100px;
+}
+
+.about-us{
+    margin-left: 180px;
+    margin-right:40px;
+    display: flex;
+    gap: 124px;
+    margin-top: 150px;
+}
+.h1-paddingbottom{
+    padding-bottom: 80px;
+}
+
+.text3{
+
+    padding-bottom: 88px;
+}
+
+.monsieur{
+    z-index: 3;
+    position: absolute;
+    right: 650px;
+ 
+}
+
+.mike{
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.053);
+    border-radius: 0px 0px 10px 10px;
+    padding: 28px;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 170px;
+}
+
+.chris{
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.037);
+    right: -40px;
+    margin-top: 160px;
+    padding-left: 28px;
+}
+
+.deroulant{
+    margin-top: 170px;
 }
