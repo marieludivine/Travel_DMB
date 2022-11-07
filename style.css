@@ -327,10 +327,76 @@ h3{
 
 .logo-marques{
     -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .logo-marques:hover{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.091);
     -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+
+}
+
+.section-paillettes{
+    background: url(/images/paillettes2.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding-bottom: 70px;
+    margin:20px 36px 96px 0px;
+}
+.div-violet{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/rectangle-violet.png);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    width: 1170px;
+    height: 407px;
+    padding: 80px 155px 80px 243px;
+    
+    
+}
+.h2-suscribe{
+    font-size: 33px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.div-suscribe{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+
+}
+.email{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.suscribe{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(#FF946D , #FF7D68);
+    
+}
+.p-suscribe{
+    color: white;
+    font-size: 17px;
 }
