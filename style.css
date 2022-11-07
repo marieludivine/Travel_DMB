@@ -115,7 +115,7 @@ p{
     width: 50%;
 }
 
-.intro2 img {
+.intro2 .fille {
     width: 100%;
 }
 
@@ -233,8 +233,33 @@ h3{
     background: url(/images/fleur.png);
     background-repeat: no-repeat;
     background-position-y: 450px;
-    background-position-x: 1098px;
+    background-position-x: 1098px; 
+}
 
-    
-    
+.book-trip{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px; 
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.text2{
+    width: 70%;
+}
+
+.bold{
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.after-title{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+
+.div-img-flou .img-flou{
+    width: 100%;
 }
