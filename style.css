@@ -1,0 +1,196 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/images/jaune.png), url(/images/violet.png); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    font-family:'Poppins', sans-serif;
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+    gap: 60px; 
+    align-items: center;
+}
+
+.navlist a{
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+}
+
+.en{
+    gap: 15px;
+    display: flex;
+}
+
+.sign-up{
+        padding: 10px 20px;
+        border:2px solid rgb(38, 38, 38);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 148px;
+    padding-right: 91px; 
+}
+
+.intro{
+    padding-top: 130px;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Volkhov', serif; 
+    color: #181E4B;
+    font-size: 40px;
+}
+
+
+.Travel{
+    font-size: 75px;
+    background: url(/images/decore.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position-y : 84px;
+    background-position-x: 250px
+}
+
+.best{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    color: #DF6951;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 13px;
+    color: #5E6282;
+    font-weight: normal;
+    margin-top: 24px;
+    margin-bottom: 30px
+}
+
+.bouttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    }
+.boutton-orange{
+    background-color: #F1A501;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    justify-content: center;
+}
+
+.intro2{
+    padding-top: 18px;
+    width: 50%;
+}
+
+.intro2 img {
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: #5E6282;
+    font-weight: bold;
+}
+
+.titres1{
+    text-align: center;
+    gap: 20px;
+}
+
+.category{
+    background: url(/images/paillettes.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 105px
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+}
+
+.text-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:158px ;
+    padding-right: 58px;
+    padding-top: 68px;
+    gap:36px
+}
+
+.block1{
+    padding-left: 43px;
+    padding-right:43px
+}
+
+.block2{
+    padding-left: 43px;
+    padding-right:43px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.053);
+    border-radius: 36px;
+    background-color: white;
+}
+
+.block3{
+    padding-left: 43px;
+    padding-right:43px;
+    
+}
+
+.block4{
+
+    padding-left: 43px;
+    padding-right:43px
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+.rect-rouge{
+    position: absolute ;
+    z-index: -1;
+    left:380px;
+    bottom: 0
+    /* comment mettre le carré sous la div de l'avion*/ 
+}
+
+
+
