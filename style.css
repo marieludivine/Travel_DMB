@@ -294,7 +294,7 @@ h3{
 .mike{
     z-index: 2;
     background-color: white;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.053);
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.091);
     border-radius: 0px 0px 10px 10px;
     padding: 28px;
     position: absolute;
@@ -314,4 +314,23 @@ h3{
 
 .deroulant{
     margin-top: 170px;
+}
+
+.marques{
+    margin-top: 138px;
+    margin-bottom: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-marques{
+    -webkit-filter: grayscale(100%);
+}
+
+.logo-marques:hover{
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.091);
+    -webkit-filter: grayscale(0%);
 }
